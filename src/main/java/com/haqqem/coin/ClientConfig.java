@@ -18,6 +18,7 @@ public class ClientConfig {
         client.getOptions().setPopupBlockerEnabled(true);
         client.getOptions().setRedirectEnabled(false);
         client.getOptions().setThrowExceptionOnScriptError(false);
+        client.getOptions().setThrowExceptionOnFailingStatusCode(false);
         return client;
     }
 }
